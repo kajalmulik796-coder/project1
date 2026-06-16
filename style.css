@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+@font-face {
+    font-family: "Dongle-light";
+    src: url("Dongle/Dongle-light.ttf");
+}
+@font-face {
+    font-family: "Dongle-light";
+    src: url("Dongle/Dongle-light.ttf");
+}
+@font-face {
+    font-family: "Dongle-regular";
+    src: url("Dongle/Dongle-regular.ttf");
+}
+@font-face {
+    font-family: "bold";
+    src: url("Dongle/Dongle-bold.ttf");
+}
+header{
+    display: flex;
+    padding:20px;
+    background-color: #e1c211;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+
+}
+.logo img{
+    max-width:10%;
+ 
+}.nav-menu ul{
+    display:flex;
+}
+.nav-menu li{
+    list-style: none;
+    margin-right: 20px
+}
+.nav-menu li.last-child{
+    margin-right: 0;
+
+}
+.nav-menu a{
+    text-decoration:none;
+    font-family: "Dongle-bold";
+    font-size: 1.6rem;
+    color: #333;
+    transition: all ease 0.3s;
+
+}
+.nav-menu a:hover{
+    color: #ff7fff;
+}
+.hero{
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+.hero-Image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.hero-content h1{
+     font-family: "Dongle-bold" ;
+     font-size: 4rem;
+}
+.hero-content p{
+     font-family: "Dongle-bold" ;
+     font-size: 1.8rem;
+     margin-top: -20px;
+     margin-bottom: 10px;
+}
+.hero-button{
+    text-decoration: none;
+    color: #8326da;
+    background-color: #ff7550;
+    padding: 12px 30px;
+    border-radius:50px;
+    font-family: "Dongle-light";
+    font-size: 1.6rem;
+    transition: all ease 0;
+
+}
+.hero-button:hover{
+    background-color: #333;
+}
+.destination{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right:80px;
+    text-align:center;
+
+}
+.destination h2{
+    margin-bottom: 40px;
+}
+.destination-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 4px;
+}  
+.destination-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.destination-item{
+    text-align: left;
+}
+.destination-item h3{
+    font-size:2rem;
+}
+
+.destination-item p{
+    font-size: 1.4rem;
+    line-height: 
+    font-family: "Dongle-regular";
+}
+.about{
+    text-align:center;
+    padding:80px;
+
+}
+about h3{
+    font-family: "Dongle-bold";
+    font-size: 3rem;
+}
+about p{
+    font-family: "Dongle-regular";
+    font-size: 1.4rem;
+    line-height: 1;
+}
+.team-members{
+    display:flex;
+}
+.team-member img{
+    width:300px;
+    height:300px;
+    margin: 20px;
+    object-fit:cover;
+}
+.team-member h4{
+    font-family: "Dongle-bold";
+     font-size: 3rem;
+}
+
+.contact{
+    padding: 80px;
+    text-align: center;
+    color: #f01f1f;
+}
+.contact h3{
+    font-family: "Dongle-bold";
+     font-size: 3rem;
+
+}
+.contact p{
+   font-family: "Dongle-regular";
+     font-size: 1.4rem;
+     margin-bottom: 20px;
+
+}
+.contact-info ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+.contact-info li{
+    margin:0 20px;
+    font-family: "Dongle-regular";
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+}
+.contact-info li a{
+    text-decoration: none;
+    font-family: "Dongle-regular";
+    color: black;
+}
+.contact-info i{
+    font-size: 24px;
+    margin-right: 10px;
+
+}
+.form{
+    width:100%;
+
+}
+input,textarea{
+    width: 70%;
+    padding: 20px 0;
+    margin: 20px 0;
+    border:none;
+    box-shadow:0 0 5px black;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Dongle-regular";
+}
+.text-area{
+    height: 200px;
+}
+.form-button{
+    text-decoration: none;
+    color: #8326da;
+    background-color: #ff7550;
+    padding: 12px 30px;
+    border-radius:50px;
+    font-family: "Dongle-light";
+    font-size: 1.6rem;
+    border:none;
+    transition: all ease 0;
+
+}
+.form-button:hover{
+    background-color: #333;
+}
+footer{
+    background-color: #f01f1f;
+    color: azure;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+align-items: center;
+}
+.social-icons a{
+    color: azure;
+    font-size: 24px;
+    margin-right: 20px;
+}
+footer p{
+    font-family: "dongle-regular";
+    font-size: 1.4rem;
+}
